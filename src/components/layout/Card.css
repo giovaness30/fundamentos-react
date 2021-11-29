@@ -1,0 +1,26 @@
+.card{
+    color: black;
+    overflow: hidden;
+    border: 3px solid ;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+.card .title{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-left: 5px;
+    font-family: Indie Flower;
+}
+.card .content{
+    flex-grow: 1;
+    color: rgb(129, 128, 128);
+    background-color: white;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
